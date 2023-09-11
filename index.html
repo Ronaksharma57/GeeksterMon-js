@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>GeeksterMon-Ronak sharma</title>
+    </head>
+    <body>
+        <div class="content-wrapper">
+            <header>
+                <h1>GeeksterMon</h1>
+            </header>
+            <main>
+                <form id="pokemon-type-filter">
+                    <select name="type" class="type-filter">
+                        <option value="">Types</option>
+                    </select>
+                    <input type="submit" value="Filter by Type"/>
+                    
+                    <button onClick="window.location.reload();">Reset</button>
+                </form>
+                <form id="pokemon-search-form" class="" action="" method="GET">
+                    <input id="pokemon-search-input" type="text" name="" placeholder="Enter Pokémon Name"/>
+                </form>
+                <section class="form-spacers"></section>
+                <section id="pokedex">
+                </section>
+            </main>  
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
